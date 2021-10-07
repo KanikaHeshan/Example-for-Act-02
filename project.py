@@ -1,3 +1,5 @@
+print("Bubble Sort")
+
 a = []
 number = int(input("Please Enter the Total Number of Elements : "))
 for i in range(number):
