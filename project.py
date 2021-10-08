@@ -6,6 +6,8 @@ for i in range(number):
     value = int(input("Please enter the %d Element of List1 : " %i))
     a.append(value)
 
+print("The list before bubble sort : ", a)
+
 for i in range(number -1):
     for j in range(number - i - 1):
         if(a[j] > a[j + 1]):
